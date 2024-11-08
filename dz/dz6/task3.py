@@ -29,7 +29,9 @@ def main():
     cost = calculate_cost(call_duration, from_operator, to_operator)
 
     if cost is not None:
-        print(f"Стоимость разговора с {from_operator} на {to_operator}: {cost:.2f} рублей")
+        print(f"Стоимость разговора с {from_operator} на {to_operator}: ",
+              end='')
+        print(f"{cost:.2f} рублей")
     else:
         print("Ошибка: Неверный оператор.")
 
