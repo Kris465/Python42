@@ -13,14 +13,20 @@
 
 
 def draw_figure(size):
-    for i in range(size):
-        for j in range(size):
+    figure = []
 
-            if (i == 0) or (i == size - 1) or (i == 1 and (j == 1 or j == 2 or j == 3)) or (i == 2 and (j == 2)) or (i == 3 and (j == 1 or j == 2 or j == 3)):
-                print("*", end=" ")
+    for i in range(size):
+        row = []
+        for j in range(size):
+            if (i == 0 or i == size - 1 or
+                (i == 1 and 1 <= j <= 3) or
+                (i == 2 and j == 2) or
+                (i == 3 and 1 <= j <= 3)):
+                row.append("*")
             else:
-                print("-", end=" ")
-        print()
+                row.append("-")
+        figure.append(" ".join(row))
+    print("\n".join(figure))
 
 
 draw_figure(5)
