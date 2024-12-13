@@ -12,4 +12,3 @@ if 10 <= number2 < 100:
     print("Ответ: ", swapped_number)
 else:
     print("Введенo не корректное число!")
-    
