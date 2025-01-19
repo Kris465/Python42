@@ -1,0 +1,39 @@
+<!-- Запросить у пользователя год и проверить, високосный он 
+или нет. Високосный год либо кратен 400, либо кратен 4 и 
+при этом не кратен 100. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проверка високосного года</title>
+
+    <script>
+        function checkLeapYear() {
+            let year = prompt("Введите год:");
+
+            // Проверка, является ли введенное значение числом
+            year = Number(year);
+            if (isNaN(year) || year < 1) {
+                alert("Пожалуйста, введите корректный год.");
+                return;
+            }
+
+            // Проверка на високосный год
+            let isLeap = (year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0);
+
+            if (isLeap) {
+                alert(year + " - високосный год.");
+            } else {
+                alert(year + " - не високосный год.");
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <button onclick="checkLeapYear()">Проверить високосный год</button>
+
+</body>
+</html>
