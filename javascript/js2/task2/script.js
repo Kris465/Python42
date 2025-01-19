@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const password = prompt("Введите пароль", "")
-    "Step", "Web", "JavaScript"
-    console.log(password)
-    const password2 = prompt("Введите пароль", "")
-    null
-    console.log(password2)
+    let password = prompt("Введите пароль ");
+    const vallitPassword = ["Step", "Web", "JavaScript"];
 
-     
+    if (vallitPassword.includes(password)){
+        alert("Подверждено");
+    } else {
+        alert("Отменено");
+    }
+   
 
-    
 });
