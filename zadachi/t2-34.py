@@ -1,7 +1,7 @@
 num1 = input("введите двузначное число:")
 num2  = input("введите однозначоне число:")
 
-a2 = num1[0]
+a1 = num1[0]
 a2 = num2[1]
 
 match num2:
@@ -28,5 +28,6 @@ match num2:
     case _ :
         s = None
 
-  print(f"Ответ: {a2 + str (s)}")  
+
+print(f"Ответ: {a2 + str(s)}")  
 
