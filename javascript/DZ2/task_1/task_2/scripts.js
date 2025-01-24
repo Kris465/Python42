@@ -40,3 +40,5 @@ switch(num){
         message.textContent = "Укажите цифру в диапозоне от 1 до 9!"
 }
 })
+
+// бе
