@@ -78,8 +78,8 @@ match b1:
         j = int(a1) + 8
     case"9":
         j = int(a1) + 9 
-    case _ :
+    case _:
         j = None
 
 
-print(f"Ответ: {str(j) + str(s) + str(l)}")  
+print(f"Ответ: {str(j) + str(s) + str(l)}")
