@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ответьте на 3 вопроса</h1>
+        <p></p> За каждый правильный ответ начисляется 2 балла<br>
+        <input type="number" id="vopros1Input" placeholder="Какой сейчас год?">
+        <label> :
+            <select id="select">
+                <option value='1992'>1992</option>
+                <option value='2002'>2002</option>
+                <option value='2025'>2025</option>
+            </select> </label>
+        <input type="number" id="vopros2Input" placeholder="Скольков вам лет?">
+        <label> :
+            <select id="select">
+                <option value='10'>10</option>
+                <option value='19'>19</option>
+                <option value='2'>22</option>
+            </select> </label>
+        <input type="text" id="vopros3Input" placeholder="Где вы сейчас находитесь?">
+        <label> :
+            <select id="select">
+                <option value='vRoss'>в России</option>
+                <option value='vMongol'>в Монголии</option>
+                <option value='vInd'>в Индии</option>
+            </select> </label>
+        <button id="button">Узнать результаты</button>
+        <p id="score"></p>
+        <p id="mes"></p>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
