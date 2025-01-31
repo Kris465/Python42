@@ -4,6 +4,8 @@ def find_pair_number(k):
     index = k - 1
     pair_number = index // 2 + 1
     return pair_number
+
+
 k = int(input("введите число K: "))
 reault = find_pair_number(k)
 print(f"номер пары цифр для K = {k}: {reault}")
