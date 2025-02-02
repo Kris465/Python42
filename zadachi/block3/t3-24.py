@@ -4,7 +4,7 @@
 # б) X и не (не Y или Z) или Y;
 # в) не (X или Y и Z) или не X.
 
-# version 1
+# 1 version
 
 x = False
 y = False
@@ -14,7 +14,7 @@ print( not (y or not x and z) or z)
 print(x and not (not y or z) or y)
 print(not (x or y and z) or not x)
 
-# version 2
+# 2 version
 
 x = False
 y = False
