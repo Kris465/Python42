@@ -25,3 +25,12 @@ if y >= 1 or -4 <= y <= -3 :
     print(True)
 else:
     print(False)
+    
+# г)
+
+x = 6
+y = 30
+if y >= 1.5 or y <=-0.5 and x <= -1 or x >= 1.5 :
+    print(True)
+else:
+    print(False)
