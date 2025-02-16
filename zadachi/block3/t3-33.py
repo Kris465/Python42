@@ -15,3 +15,13 @@ if y >= 1 or y <= -3:
     print(True)
 else:
     print(False)
+
+
+# в)
+x = 0
+y = -3
+
+if y >= 1 or -4 <= y <= -3 :
+    print(True)
+else:
+    print(False)
