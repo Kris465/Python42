@@ -1,4 +1,4 @@
-const promt = require('promt-sync')();
+const promt = require('prompt-sync')();
 
 let num = promt("Введите число: ");
 
