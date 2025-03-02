@@ -18,15 +18,15 @@ console.log(``)
 
 // В
 
-let a = prompt("Введите число a: ")
-let b = prompt("Введите число b: ")
-let c = prompt("Введите число c: ")
+let a1 = prompt("Введите число a: ")
+let b1 = prompt("Введите число b: ")
+let c1 = prompt("Введите число c: ")
 
-console.log(`${((a / b) * c)}`);
+console.log(`${((a1 / b1) * c1)}`);
 
 // Г
 
-let a = prompt("Введите число a: ")
-let b = prompt("Введите число b: ")
+let a2 = prompt("Введите число a: ")
+let b2 = prompt("Введите число b: ")
 
-console.log(`${((a + b) / 2)}`);
+console.log(`${((a2 + b2) / 2)}`);
