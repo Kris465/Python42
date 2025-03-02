@@ -16,3 +16,4 @@ let x = prompt("Введите число x: ")
 let y = prompt("Введите число y: ")
 
 console.log(`${x} ${y} 5 ${y}`);
+
