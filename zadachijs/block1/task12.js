@@ -26,3 +26,4 @@ readline2.question('Введите число: ', (x) => {
         readline2.close();
     });
 });
+
