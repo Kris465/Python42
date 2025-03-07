@@ -76,7 +76,6 @@ const x = prompt("Введите число x: ")
 const y = prompt("Введите число x: ")
 console.log(`${-5 * ((x + y ** 0.5) ** 0.5)}`);
 
-// мда уж
 
 
 
