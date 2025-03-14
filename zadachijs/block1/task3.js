@@ -1,5 +1,5 @@
-const promt = require('prompt-sync')();
+const prompt = require('prompt-sync')();
 
-let num = promt("Введите число: ");
+let num = prompt("Введите число: ");
 
 console.log(`Вот число ${num}`);
