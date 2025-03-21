@@ -19,4 +19,6 @@ if(discriminant===0) {
 const x = -b / (2 * a)
 console.log("Имеет один корень")
 }
-
+else {
+    console.log("нет корней")
+}
