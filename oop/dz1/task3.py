@@ -12,9 +12,10 @@ class Stadion:
         
         def get_countity(self):
             return self.__countity
-                     
-        stadion = Stadion("Roma", "USA", "Hollywood")
-        print(stadion.title, stadion.city, stadion.country)
+
+ 
+stadion = Stadion("Roma", "USA", "Hollywood")
+print(stadion.title, stadion.city, stadion.country)
         
 
 

@@ -20,6 +20,7 @@ class Book:
     def get_price(self):
         return self._price
 
+
 book = Book("Idiot", "Moscow", "Roman", "Dostoevsky", "1000")
 print(book.booktitle, book.year, book.genre)
 
