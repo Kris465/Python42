@@ -1,3 +1,4 @@
+const prompt = require('prompt-sync')();
 let a1 = prompt("Введите первую сторону чемодана");
 let a2 = prompt("Введите вторую сторону чемодана");
 let a3 = prompt("Введите третью сторону чемодана");
