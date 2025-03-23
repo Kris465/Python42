@@ -1,8 +1,8 @@
 let prompt = require('prompt-sync')();
-let a = prompt("Введите хз1 ");
-let b = prompt("Введите хз2 ");
-let c = prompt("Введите хз3 ");
-let d = prompt("Введите хз4 ");
+let a = prompt("Введите ширину  ");
+let b = prompt("Введите длину ");
+let c = prompt("Введите ширину открытки ");
+let d = prompt("Введите длину открытки ");
 if ((a - 1) * (b - 1) == c * d) {
     console.log("Поздравляю, открытка поместится");
 } else{
