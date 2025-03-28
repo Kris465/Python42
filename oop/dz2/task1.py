@@ -7,7 +7,6 @@ class Auto:
         self.__color = ""
         self.__price = price
 
-
     def get_year(self):
         return self.__year
 
@@ -22,7 +21,8 @@ class Auto:
         return self.__color
 
     def run(self):
-        return "Машина едет"
+        reiting = input("Введите рейтинг: ")
+        return reiting
 
 
 class Huindai(Auto):
