@@ -5,21 +5,42 @@
 // свешивания со стола. Все ребра костей домино должны быть параллельны или 
 // перпендикулярны каждой стороне стола.
 
-
-const prompt = require('prompt-sync')();
-const a = prompt('Введите первую сторону стола "a": ');
-const b = prompt('Введите вторую сторону стола "b": ');
-const c = prompt('Введите первую сторону кости домино "c": ');
-const d = prompt('Введите вторую сторону кости домино "d": ');
-const e = prompt('Введите третью сторону кости домино "e": ');
-
-
-v_a = a * b;
-v_b = c * d * e;
+//1 Вариант
+// const prompt = require('prompt-sync')();
+// const a = prompt('Введите первую сторону стола "a": ');
+// const b = prompt('Введите вторую сторону стола "b": ');
+// const c = prompt('Введите первую сторону кости домино "c": ');
+// const d = prompt('Введите вторую сторону кости домино "d": ');
+// const e = prompt('Введите третью сторону кости домино "e": ');
 
 
-if (a > b && c > d > e || v_a > v_b) {
-    console.log("Разместится")
-} else {
-    console.log("Не разместится")
-};
+// x1 = a * b;
+// x2 = c * d;
+// x3 = c * e;
+// x4 = d * e;
+
+
+// if (x1 >= x2) {
+//     console.log("Разместится")
+// } else if (x1 >= x3) {
+//     console.log("Разместится")
+// } else if (x1 >= x4) {
+//     console.log("Разместится")
+// } else {
+//     console.log("Не разместится")
+// };
+
+
+//2 Вариант
+let a = 20;
+let b = 10;
+let c = 8;
+let d = 6;
+let e = 2;
+ 
+x1 = a * b;
+x2 = c * d;
+x3 = c * e;
+x4 = d * e;
+const minSquare = Math.min(x1, x2, x3, x4);
+console.log("Разместится на столе сторона домино площадью: " + minSquare)
