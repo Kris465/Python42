@@ -1,14 +1,16 @@
+// Даны два числа. Найти их сумму, разность, произведение, а также частное от 
+// деления первого числа на второе. 
+
+
 const prompt = require('prompt-sync')();
-let a = parseFloat(prompt('Введите A: '));
-let b = parseFloat(prompt('Введите B: '));
-let c = parseFloat(prompt('Введите C: '));
+const x = Number(prompt('Введите число "x": '));
+const y = Number(prompt('Введите число "y": '));
+const sum = x + y;
+const minus = x - y;
+const proizvedenie = x * y;
+const chastnoe = x / y;
 
-function hasEqualPair(a, b, c) {
-    return a === b || a === c || b === c;
-}
-
-if (hasEqualPair(a, b, c)) {
-    console.log("Среди чисел есть хотя бы одна пара равных.");
-} else {
-    console.log("Все числа различны.");
-}
+console.log(sum);
+console.log(minus);
+console.log(proizvedenie);
+console.log(chastnoe);
