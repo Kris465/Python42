@@ -6,8 +6,7 @@
 
 //a)
 
-const secondsInput = prompt("ВВедите секунды: ");
-const seconds = parseInt(secondsInput);
+const seconds = 3600
 
 if (isNaN(seconds) || seconds < 0) {
     console.log("Ошибочка)");
@@ -16,26 +15,14 @@ if (isNaN(seconds) || seconds < 0) {
     console.log(`Вот сколько полных часов: ${fullHours}`);
 }
 
-// б)
+// const sec = second % 3600;
+// const min = 20
 
-const minInput = prompt("ВВедите минуты: ");
-const mim = parseInt(minInput);
+// if (isNaN(min) || min < 0) {
+//     console.log("Ошибочка)");
+// } else {
+//     const fullMin = Math.floor((sec % 3600) / 60);
+//     console.log(`Вот сколько полных минут: ${fullMin}`);
+// }
 
-if (isNaN(min) || min < 0) {
-    console.log("Ошибочка)");
-} else {
-    const fullMin = Math.floor(60 / min);
-    console.log(`Вот сколько полных минут: ${fullMin}`);
-}
-
-// в)
-
-const secInput = prompt("ВВедите секунды: ");
-const sec = parseInt(secInput);
-
-if (isNaN(sec) || sec < 0) {
-    console.log("Ошибочка)");
-} else {
-    const fullSec = Math.floor(60 / sec);
-    console.log(`Вот сколько полных секунд: ${fullSec}`);
-}
+// в общем надо подумать:)
