@@ -9,7 +9,7 @@ function swapDigits(number) {
     return swappedNumber;
   }
   
-  const num = 57;
+  const num = 50;
   const result = swapDigits(num);
   
   console.log(`Исходное число: ${num}`);
