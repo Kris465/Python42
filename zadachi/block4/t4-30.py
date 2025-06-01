@@ -17,7 +17,7 @@
 #     num_str = str(abs(number))
 #     digit1 = int(num_str[0])
 #     digit2 = int(num_str[1])
-#     digit3 = int(num_str[2])W
+#     digit3 = int(num_str[2])
 
 #     sum_digits = digit1 + digit2 + digit3
 #     proz_digits = digit1 + digit2 + digit3
