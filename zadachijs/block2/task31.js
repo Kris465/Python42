@@ -8,6 +8,6 @@ const x = prompt("Введите значение x (100 ≤ n ≤ 999): ");
 
 let num = x[0] + x[2] + x[1];
 let n = num;
-let x_2 = n[0] + x[1] + x[2];
+let x_2 = n[0] + n[2] + n[1];
 
 console.log(x_2);
