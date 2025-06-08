@@ -1,6 +1,4 @@
-a=1488
-b=52
-c=42
-d=69
+const four_random_numbers = Array.from({length: 4}, () => Math.floor(Math.random() * 101));
 
-console.log(`${a}  ${b}  ${c}  ${d}`)
+const joinedString = four_random_numbers.join(" ");
+console.log(joinedString);
