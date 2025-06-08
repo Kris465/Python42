@@ -1,4 +1,4 @@
-console.log(10);
-console.log(25);
-console.log(42);
-console.log(87);
+const four_random_numbers = Array.from({length: 4}, () => Math.floor(Math.random() * 101));
+
+const joinedString = four_random_numbers.join("\n");
+console.log(joinedString);
