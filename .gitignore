@@ -7,3 +7,10 @@
 node_modules
 package-lock.json
 package.json
+
+# files
+*.csv
+
+# db
+*.db
+*.sqlite
