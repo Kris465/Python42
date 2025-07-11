@@ -1,4 +1,10 @@
-import math
+x = float(input("Введите x: "))
 
-pi_rounded = round(math.pi, 2)
-print(pi_rounded)
+if x == 1:
+    y = 0
+elif x < 0:
+    y = 0
+else:
+    y = x
+
+print("y = ", y)
