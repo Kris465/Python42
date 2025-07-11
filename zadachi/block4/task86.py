@@ -1,4 +1,4 @@
-x = float(input("Введите x: "))
+x = float(input("Введите z: "))
 
 if x == 1:
     y = 0
