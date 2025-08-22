@@ -1,0 +1,5 @@
+y1 = int(input())
+m1 = int(input())
+y2 = int(input())
+m2 = int(input())
+print(((y2 - y1) * 12 + m2 - m1) // 12)
